@@ -94,7 +94,7 @@ class Colour(models.Model):
 
     # to make the name look better on django admin site(instead of object 1, object 2)
     def __str__(self):
-    return self.name + ' ' + self.description
+        return self.name + ' ' + self.description
 ```
 
 add model to admin page:
